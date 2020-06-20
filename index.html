@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--BOOTSTRAP-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Lauren Alayza</title>
+    <!--MY FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar navbar-expand-lg navbar-light bg-light" data-offset="50">
+
+<!--LANDING/HEADER SECTION-->
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Lauren Alayza</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#aboutScroll">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+<!--JUMBOTRON-->
+<section>
+<div class="jumbotron jumbotron-fluid">
+    <!-- <div class="container"> -->
+      <!-- <h1 class="display-4"></h1> <br> -->
+      <!-- <p class ="display-4"></p> -->
+    </div>
+  </div>
+</section>
+
+<!--Landing Text Over Background-->
+<h1 class="landingTxt">Lauren Alayza</h1> <br>
+<h3 class="landingTxt2">Web Development Student at Eleven Fifty Academy</h3>
+
+<!--ABOUT ME-->
+<section class="about" id="aboutScroll">
+  <h1>About Me</h1>
+<div id="aboutMeBox">
+<h1 class="aboutMe" id="cursive">Hello</h1>
+<h4>
+ Thank you for taking the time to check out my portfolio. I am an aspiring full stack web developer. 
+  I started to code in May 2020, and anticipate graduating from Eleven Fifty Academy (a six-month part-time coding bootcamp) at the end of this year. 
+  If you want to know more about my technical experience, take a look at my portfolio. 
+  If you are curious about my educational background and professional experience, you can download a copy of my [redacted] resume below. 
+  Feel free to send me a message through the form at the bottom, or connect with me through social.
+</h4>
+<h1 class="aboutMe" id="cursive">Values & Mission</h1>
+<h4>
+  Values are important to me...<br>
+  I value diversity, equity and inclusion. <br>
+  Strategy<br>
+  Innovation<br>
+
+  I am mission-driven to...<br>
+</h4>
+</div>
+<br>
+<br>
+</section>
+
+
+<!--PORTFOLIO-->
+<h1 class="portfolio">Portfolio</h1>
+<section id="portfolio">
+<div class="card-deck">
+
+<!--NASA API Card-->
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" id="fontA">NASA API</h5>
+      <p class="card-text">For this challenge, I connected to one of NASA's APIs - the Astronomy Picture of the Day.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Link to NASA API</small>
+    </div>
+  </div>
+
+<!--Static Layout Card-->
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" id="fontA">Devhints.io Static Layout</h5>
+      <p class="card-text">This assignment needs a little more work when I get more time, but I learned a lot about flexbox and grid layout for this project.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Link to Static Layout Application</small>
+    </div>
+  </div>
+
+<!--CSS Creature Card-->
+  <div class="card">
+    <img class="card-img-top" src="https://codepen.io/laurenalayza/pen/NWGeVXB" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title" id="fontA">CSS Creature</h5>
+      <p class="card-text">I have created a unique, one-of-a kind CSS creature pulled straight from my imagination.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Link to CSS Creature</small>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--DOWNLOADABLE RESUME-->
+<section class="resume">
+<a href="assets/L.Alayza 2020 Resume for Internet OnlinePDF.pdf" target="_blank">Resume / CV</a>
+</section>
+
+
+
+<!--CONTACT FORM-->
+<div id="contact">
+<h1 class="contact" id="cursive">Let's Connect!</h1>
+<form
+  action="https://formspree.io/mbjzyppg"
+  method="POST">
+  <label>
+    Your full name:
+    <textarea name="fullname"></textarea>
+  </label><br>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label> <br>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label><br>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+</div>
+
+<!--FOOTER-->
+<footer class="footer">
+  <ul class="list-group list-group-horizontal" id="footer">
+    <li class="list-group-item">
+      <a href="https://www.linkedin.com/in/laurenalayza/" target="_blank">Let's Connect on LinkedIn!</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://github.com/LaurenAlayza" target="_blank">Go to my GitHub!</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://twitter.com/AlayzaCodes" target="_blank">Tweet @ Me!</a>
+    </li>
+  </ul>  
+</footer>
+
+<!--BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C
++OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!--MY SCRIPTS  -->
+<script src="./scripts/script.js"></script>
+</body>
+</html>
