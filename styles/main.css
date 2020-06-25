@@ -97,6 +97,23 @@ body {
     border-radius: 3.5em;
 }
 
+#nameBox {
+  width: 400px;
+}
+
+#emailBox {
+    width: 400px;
+}
+
+#messageBox {
+    width: 400px;
+    height: 250px;
+}
+
+#sendBox {
+    width: 200px;
+}
+
 #footer {
     text-align: center;
 }
